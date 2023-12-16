@@ -43,26 +43,26 @@
 
 }
 
-.container11 {
+.body__container--sub {
     padding-bottom: 55px;
 }
 
 
-.aaa {
+.body__link {
     text-decoration: none;
     min-width: 238px;
     margin: 0 auto;
 
 }
 
-.container-0 {
+.body__container--main {
     max-width: 1230px;
     min-width: 375px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.aaa h2 {
+.body__link h2 {
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
@@ -73,11 +73,11 @@
     padding-bottom: 10px;
 }
 
-.container11 {
+.body__container--sub {
     padding-bottom: 79px;
 }
 
-.h21 {
+.body__container--h {
     font-weight: 700;
     font-size: 40px;
     line-height: 57px;
@@ -90,7 +90,7 @@
 }
 
 
-.p1 {
+.body__text--small {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -100,13 +100,13 @@
 
 }
 
-.img {
+.body__image {
     max-width: 100%; 
     height: 138px;
     object-fit: cover;
 }
 
-.p11 {
+.body__text--secondary {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -116,14 +116,14 @@
     padding-bottom: 30px;
 }
 
-.aaa2 {
+.body__link--secondary {
     text-decoration: none;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.div {
+.body__div {
     padding-left: 32px;
     padding-right: 30px;
 }
@@ -132,35 +132,35 @@
 
 @media (min-width: 375px) and (max-width: 480px)  {
 
-    .container {
+    .body__container {
         background: #F3F3F3;
     }
     
-    .container2 {
+    .body__container--secondary {
         background: #F3F3F3;
     }
 
-    .item-15 {
+    .body__items {
         margin: 0 -15px;
         display: flex; 
         flex-direction: column;
     }
 
-    .item {
+    .body__item {
         padding-right: 15px;
         padding-left: 15px;
         width: 100%;
         padding-bottom: 30px;
     }
     
-    .item2 {
+    .body__item--secondary {
         padding-right: 15px;
         padding-left: 15px;
         width: 100%;   
         padding-bottom: 50px; 
     }
 
-    .item-box {
+    .body__item-box {
         display: flex;
         padding: 30px 30px 30px 30px;
         font-size: 16px;
@@ -172,7 +172,7 @@
         width: 100%;
     }
 
-    .item-box2 {
+    .body__item-box--secondary {
         display: flex;
         padding: 30px 0px 0px 0px;
         font-size: 16px;
@@ -183,7 +183,7 @@
         width: 100%;
     }
 
-    .h5 {
+    .body__header--small {
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;   
@@ -191,7 +191,7 @@
         color: #252B42;
     }
     
-    .p {
+    .body__text {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -206,7 +206,7 @@
         margin: 0 auto;
     }
 
-    .p2 {
+    .body__container--text {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -221,7 +221,7 @@
         max-width: 470px;
     }
 
-    .h221 {
+    .body__header--main {
         font-weight: 700;
         font-size: 36px;
         line-height: 57px;
@@ -233,7 +233,7 @@
         margin-left: 45px;
     }
 
-    .h21 {
+    .body__container--h {
         font-weight: 700;
         font-size: 36px;
         line-height: 57px;
@@ -248,36 +248,36 @@
 
 @media (min-width: 480px) and (max-width: 991px) {
 
-    .container {
+    .body__container {
         background: linear-gradient(180deg, #FAFAFA 0%, #E2E2E2 100%);
     }
     
-    .container2 {
+    .body__container--secondary {
         background: #FAFAFA;
     }
 
 
-    .item-15 {
+    .body__items {
         margin: 0 -15px;
         display: flex; 
         flex-wrap: wrap;
     }
 
-    .item {
+    .body__item {
         padding-right: 15px;
         padding-left: 15px;
         width: 50%;
         padding-bottom: 30px;
     }
 
-    .item2 {
+    .body__item--secondary {
         padding-right: 15px;
         padding-left: 15px;
         width: 50%;   
         padding-bottom: 50px;  
     }
     
-    .item-box {
+    .body__item-box {
         display: flex;
         padding: 30px 30px 30px 30px;
         font-size: 16px;
@@ -290,7 +290,7 @@
         min-width: 225px;
     }
 
-    .item-box2 {
+    .body__item-box--secondary {
         display: flex;
         padding: 30px 0px 0px 0px;
         font-size: 16px;
@@ -301,7 +301,7 @@
         width: 100%;
     }
 
-    .h5 {
+    .body__header--small {
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;   
@@ -309,7 +309,7 @@
         color: #252B42;
     }
 
-    .p {
+    .body__text {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -322,7 +322,7 @@
         margin: 0 auto;
     }
 
-    .p2 {
+    .body__container--text {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -335,7 +335,7 @@
         max-width: 470px;
     }
 
-    .h221 {
+    .body__header--main {
         font-weight: 700;
         font-size: 40px;
         line-height: 57px;
@@ -347,7 +347,7 @@
         margin-left: 45px;
     }
 
-    .h21 {
+    .body__container--h {
         font-weight: 700;
         font-size: 40px;
         line-height: 57px;
@@ -363,33 +363,33 @@
 
 @media (min-width: 991px) {
 
-    .container {
+    .body__container {
         background: linear-gradient(180deg, #FAFAFA 0%, #E2E2E2 100%);
     }
     
-    .container2 {
+    .body__container--secondary {
         background: #FAFAFA;
     }
 
-    .item-15 {
+    .body__items {
         margin: 0 62px;
         display: flex; 
     }
 
-    .item {
+    .body__item {
         padding-right: 15px;
         padding-left: 15px;
         width: 25%;
     }
 
-    .item2 {
+    .body__item--secondary {
         padding-right: 15px;
         padding-left: 15px;
         width: 25%;
         
     }
     
-    .item-box {
+    .body__item-box {
         display: flex;
         padding: 30px 30px 30px 30px;
         font-size: 16px;
@@ -401,7 +401,7 @@
         width: 100%;
     }
 
-    .item-box2 {
+    .body__item-box--secondary {
         display: flex;
         padding: 30px 0px 0px 0px;
         font-size: 16px;
@@ -414,7 +414,7 @@
         margin-right: 0 auto;
     }
 
-    .h5 {
+    .body__header--small {
         font-weight: 700;
         font-size: 16px;
         line-height: 24px;   
@@ -423,7 +423,7 @@
         max-width: 150px;
     }
 
-    .p {
+    .body__text {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -436,7 +436,7 @@
         margin: 0 auto;
     }
 
-    .p2 {
+    .body__container--text {
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -449,7 +449,7 @@
         max-width: 470px;
     }
 
-    .h221 {
+    .body__header--main {
         font-weight: 700;
         font-size: 40px;
         line-height: 57px;
@@ -460,7 +460,7 @@
         margin: 0 auto;
     }
 
-    .h21 {
+    .body__container--h {
         font-weight: 700;
         font-size: 40px;
         line-height: 57px;
